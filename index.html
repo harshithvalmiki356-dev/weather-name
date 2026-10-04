@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <!DOCTYPE html>
 <html>
     <head>
@@ -48,4 +49,56 @@
     </div>
 </body>
     <script src="weather.js"></script>
+=======
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="weather.css">
+        <title>weather application</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta charset="UTF-8">
+    </head>
+    <body>
+    <div class="container">
+        <h1 class="header">Weather App</h1>
+        <p class="information">Get real-time weather information for any city</p>
+     <div class="search-box">
+        <div class="city-search">
+            <input id="cityInput"
+                placeholder="Enter city name">
+            <div id="suggestions"></div>
+        </div>
+            <button id="searchBtn">Search</button>
+    </div>
+            <p id="loading"></p>
+        <div class="weather-card">
+            <h2 id="cityName">Tirupati</h2>
+
+            <div class="temperature">
+                <h1 id="temp">28°C</h1>
+                <p id="description">Partly Cloudy</p>
+                <img
+                id="weatherIcon"
+                src="https://openweathermap.org/img/wn/03d@2x.png"
+                alt="Cloudy weather"
+                >
+                <div id="rainAnimation"></div>
+            </div>
+
+            <div class="weather-details">
+                <div class="humidity">
+                    <p>Humidity</p>
+                    <p id="humidity">72%</p>
+                </div>
+
+                <div class="wind">
+                    <p>Wind Speed</p>
+                    <p id="windSpeed">12 km/h</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+    <script src="weather.js"></script>
+>>>>>>> origin/main
 </html>
